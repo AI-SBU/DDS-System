@@ -1,0 +1,69 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=DDS_with_Frequency_Selection
+
+[Library]
+DDS_with_Frequency_Selection=.\DDS_with_Frequency_Selection\DDS_with_Frequency_Selection.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\ronid\OneDrive - Stony Brook University\School\Stony Spring 2019\ESE 382\Labs\10\LAB10\lab10\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+DDS_with_Frequency_Selection=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=sqwave|squareWavy|0  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/EdgeDetector.vhd=-1
+/FrequencyRegister.vhd=-1
+/PhaseAccumulator.vhd=-1
+/PhaseAccumulatorFSM.vhd=-1
+/Adder_Subtracter.vhd=-1
+/SineTable.vhd=-1
+/DDS_TOP.vhd=-1
+/dds_w_freq_select_TB(2).vhd=-1
+/SquareWave.vhd=-1
+
+[Files.Data]
+.\src\EdgeDetector.vhd=VHDL Source Code
+.\src\FrequencyRegister.vhd=VHDL Source Code
+.\src\PhaseAccumulator.vhd=VHDL Source Code
+.\src\PhaseAccumulatorFSM.vhd=VHDL Source Code
+.\src\Adder_Subtracter.vhd=VHDL Source Code
+.\src\SineTable.vhd=VHDL Source Code
+.\src\DDS_TOP.vhd=VHDL Source Code
+.\src\dds_w_freq_select_TB(2).vhd=VHDL Source Code
+.\src\SquareWave.vhd=VHDL Source Code
+

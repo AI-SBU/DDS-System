@@ -1,0 +1,24 @@
+312
+~E 1 "./../src/Adder_Subtracter.vhd" 40 adder_subtracter
+~A 1 "./../src/Adder_Subtracter.vhd" 48 addOrsub
+~E 1 "./../src/DDS_TOP.vhd" 39 dds_w_freq_select
+~A 1 "./../src/DDS_TOP.vhd" 64 structural
+~E 1 "./../src/dds_w_freq_select_TB(2).vhd" 8 dds_w_freq_select_tb
+~A 1 "./../src/dds_w_freq_select_TB(2).vhd" 15 tb_architecture
+~E 1 "./../src/EdgeDetector.vhd" 39 edge_det
+~A 1 "./../src/EdgeDetector.vhd" 51 edgy
+~E 1 "./../src/EdgeDetectorTB.vhd" 37 edge_det_TB
+~E 1 "./../src/FreqRes_TB.vhd" 39 freq_REG_TB
+~E 1 "./../src/FrequencyRegister.vhd" 37 frequency_reg
+~A 1 "./../src/FrequencyRegister.vhd" 48 freque
+~E 1 "./../src/PhaseAccumulator.vhd" 42 phase_accumulator
+~A 1 "./../src/PhaseAccumulator.vhd" 60 phase
+~E 1 "./../src/PhaseAccumulatorFSM.vhd" 39 phase_accumulator_fsm
+~A 1 "./../src/PhaseAccumulatorFSM.vhd" 51 phaseFSM
+~E 1 "./../src/PhaseAccFSM_TB.vhd" 39 phase_accumulator_fsm_TB
+~E 1 "./../src/PhaseAcc_TB.vhd" 42 phase_TB
+~E 1 "./../src/SineTable.vhd" 39 sine_table
+~A 1 "./../src/SineTable.vhd" 46 tableLookUp
+~E 1 "./../src/SquareWave.vhd" 25 sqwave
+~A 1 "./../src/SquareWave.vhd" 31 behavioral
+~A 1 "./../src/SquareWave.vhd" 40 squareWavy

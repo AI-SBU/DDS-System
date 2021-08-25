@@ -1,0 +1,170 @@
+timestamp=1556703925508
+
+[~A]
+ModifyID=312
+Version=74
+
+[adder_subtracter]
+A/addorsub=A/addOrsub 21|./../src/Adder_Subtracter.vhd|48|1*662073
+BinI32/addorsub=3*262185
+I=0*15101
+I/addorsub=I/addOrsub 0*150943
+M=11|0|vde|1556694359639|./../src/Adder_Subtracter.vhd|0*5585*0xde4dda881af2fe64ca24ae8f410315f81e0a6855|0*5920*0x23b75c12e3e89f2ef000564498faa8c2
+M/addorsub=M/addOrsub 21|0|vde|1556703925479|./../src/Adder_Subtracter.vhd|0*32855*0x307b74c40e5ebb9927fc490a9e3355b798ab6a95|0*33276*0x20116f55b147878295aeff36dce7fc50
+NSymbols/adder_subtracter=40|0|2*11555
+R=./../src/Adder_Subtracter.vhd|40
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|68095cde8515a895b72ef84708a2aed87399963010a5706bf079b89c339ac2b4233a5627fdc3720243def12d6036a0a3
+Version/addorsub=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|ed8548a2e17e37bd45bde1539c7377ddd369b1b4c4d65c011ef4a41028a18596a6f9703f19a9fa2bb1ef8c2b2b569902
+
+[dds_w_freq_select]
+A/structural=21|./../src/DDS_TOP.vhd|64|1*667063
+BinI32/structural=3*262851
+I=0*15897
+I/structural=0*151456
+M=11|0|vde|1556694359654|./../src/DDS_TOP.vhd|0*8369*0x593adb19cf607763b4050136b43830aa499cf446|0*9086*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=21|0|vde|1556703925492|./../src/DDS_TOP.vhd|0*35885*0xaaf80b906ff5838cc6027f3247397224ff793bd3|0*36992*0x20116f55b147878295aeff36dce7fc50
+R=./../src/DDS_TOP.vhd|39
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|81a23423c03c103c583378167332eb86057f44d4e0838d6fa3dca2f9ddb14c4546e47c71c7dc713f770efca725dc7006
+Version/structural=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb6e342bfab16a9f8bd766e3a116f977f6
+
+[dds_w_freq_select_tb]
+A/tb_architecture=21|./../src/dds_w_freq_select_TB(2).vhd|15|1*669822
+BinI32/tb_architecture=3*263145
+I=0*16813
+I/tb_architecture=0*151928
+M=11|0|vde|1556694359663|./../src/dds_w_freq_select_TB(2).vhd|0*10389*0xa6e4216e31004d469f613f55c86caba0e97f8e8b|0*10674*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=21|0|vde|1556703925499|./../src/dds_w_freq_select_TB(2).vhd|0*10784*0xa585596cae065cb6300c65e976727fb7e7272911|0*11589*0x20116f55b147878295aeff36dce7fc50
+R=./../src/dds_w_freq_select_TB(2).vhd|8
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|81a23423c03c103c583378167332eb86fa4d0fa38afe2dc917ff83223b7b07a5558fc8b23fc0912fa8933111a2a754a8
+Version/tb_architecture=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beac1b88333d2b862cba8b8e98ec73db4bf
+
+[edge_det]
+A/edgy=21|./../src/EdgeDetector.vhd|51|1*656604
+BinI32/edgy=3*258471
+I=0*26393
+I/edgy=0*150003
+M=11|0|vde|1556696425789|./../src/EdgeDetector.vhd|0*26018*0x4a11524cdb2f7e6638f662202a0303b840f56d55|0*26306*0x23b75c12e3e89f2ef000564498faa8c2
+M/edgy=21|0|vde|1556703925445|./../src/EdgeDetector.vhd|0*27911*0x5c398e8734d2a8239aec8c0a1c4fdf9f30237dba|0*29013*0x20116f55b147878295aeff36dce7fc50
+NSymbols/edge_det=40|0|2*0
+R=./../src/EdgeDetector.vhd|39
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|57252300669a058f3325284c9d71fc0a29569913b9a8c789df855022dbca654142de254748589f141e4c97afe1dc224a
+Version/edgy=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|ab3d889447a18febf93a9a47f5b46063f1081f60614cae572bf02242c795f9de
+
+[edge_det_tb]
+BinI32/nonselfchecking=3*2539
+I=0*18147
+I/nonselfchecking=I/nonSelfChecking 0*18352
+M=11|0|vde|1556694359604|./../src/EdgeDetectorTB.vhd|0*2438*0xa466ee66e47426c028773093eac5c2c7950fda12|0*2616*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../src/EdgeDetectorTB.vhd|37
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|992baeb63df6383e1e2a1f33be6857527141386946e8f88964394e31716b2849939cf4da08fb87c6f5fb477691ea5458
+Version/nonselfchecking=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|541d1abedad658071cef672ba9c06c91a4c2d2a79ddbbce4c7b134b618002c020535161136736d4b75d553e24777c181
+
+[freq_reg_tb]
+BinI32/nonselfchecking=3*3112
+I=0*18781
+I/nonselfchecking=I/nonSelfChecking 0*19025
+M=11|0|vde|1556694359612|./../src/FreqRes_TB.vhd|0*2708*0x51468cce80ab3e97f459d6bfe8f23a1284296537|0*2953*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../src/FreqRes_TB.vhd|39
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|7c41d726241fff43c42ea08c268fc9117421d926e70f078537d3c205714875a1f2d18d84ff5550e1b3c53705fc96af2b
+Version/nonselfchecking=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|541d1abedad658071cef672ba9c06c91a4c2d2a79ddbbce4c7b134b618002c02d219b95b087daefd2d5c341834e9eb06
+
+[frequency_reg]
+A/freque=21|./../src/FrequencyRegister.vhd|48|1*657749
+BinI32/freque=3*259284
+I=0*19609
+I/freque=0*150210
+M=11|0|vde|1556694359580|./../src/FrequencyRegister.vhd|0*0*0xfad6b187a91fec4b327aae19523ddf1cb82c2124|0*361*0x23b75c12e3e89f2ef000564498faa8c2
+M/freque=21|0|vde|1556703925455|./../src/FrequencyRegister.vhd|0*29315*0xc87462dcc80ff772a9d139ea22c9083221720a57|0*29603*0x20116f55b147878295aeff36dce7fc50
+NSymbols/frequency_reg=40|0|2*2234
+R=./../src/FrequencyRegister.vhd|37
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|361b91ff434c5b91a96ca1e21764d6e6df4915fbde63c12db62d9a96926973489e09b8b2f8bd7e9ec29c033edadc9eba
+Version/freque=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|9777d7dd1925a52bee8057d149934ff0cb0ec4d3ece6785396429a0d50906b7c
+
+[phase_accumulator]
+A/phase=21|./../src/PhaseAccumulator.vhd|60|1*658932
+BinI32/phase=3*259997
+I=0*20308
+I/phase=0*150424
+M=11|0|vde|1556694359596|./../src/PhaseAccumulator.vhd|0*853*0xdd8c0b2028de9c4817d9791416b95dd02c456fa2|0*1315*0x23b75c12e3e89f2ef000564498faa8c2
+M/phase=21|0|vde|1556703925463|./../src/PhaseAccumulator.vhd|0*29924*0xb54f3c0cb35180496efe17104efa06900b49d6a9|0*30838*0x20116f55b147878295aeff36dce7fc50
+NSymbols/phase_accumulator=40|0|2*4595
+R=./../src/PhaseAccumulator.vhd|42
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|033673a0510cb0be650955e3f05f9e1f2ff4c49b342237982ac625c87732924bc1da4bd5fd9c3a1508381977b954d594
+Version/phase=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|222c1baaa915a520b66650637b9ba19d457ad8145e065d719d936dca8cc63306
+
+[phase_accumulator_fsm]
+A/phasefsm=A/phaseFSM 21|./../src/PhaseAccumulatorFSM.vhd|51|1*660696
+BinI32/phasefsm=3*261292
+I=0*21048
+I/phasefsm=I/phaseFSM 0*150680
+M=11|0|vde|1556694359631|./../src/PhaseAccumulatorFSM.vhd|0*3712*0x019b16f2579a6695ecc6fa34bdf58e1e0eaf2bbe|0*4089*0x23b75c12e3e89f2ef000564498faa8c2
+M/phasefsm=M/phaseFSM 21|0|vde|1556703925471|./../src/PhaseAccumulatorFSM.vhd|0*31203*0x7d02755d5e53ad8d5e5420a8699d6ac00f22aab9|0*32473*0x20116f55b147878295aeff36dce7fc50
+NSymbols/phase_accumulator_fsm=40|0|2*7659
+R=./../src/PhaseAccumulatorFSM.vhd|39
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|033673a0510cb0be650955e3f05f9e1f04bf11b8fd98c7831c73fe5e71e99dcd077ff255af5fd8d1f11f5bdc03940131
+Version/phasefsm=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|24339bdde069c4934a183ff9f6a5fe95d6ba990fd61ab077d00f1513627f55739291f53f527093a3b553df69d8aa39b5
+
+[phase_accumulator_fsm_tb]
+BinI32/nonselfchecking=3*7010
+I=0*21719
+I/nonselfchecking=I/nonSelfChecking 0*21976
+M=11|0|vde|1556694359627|./../src/PhaseAccFSM_TB.vhd|0*3364*0x46fdabefe0a59ea2acd31f21363130ed324e3c4d|0*3607*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../src/PhaseAccFSM_TB.vhd|39
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|033673a0510cb0be650955e3f05f9e1fafc9d1abadf4b4b5d416a4b7657531c75af3c42593d94d41b8f776d95f5eaf98f832b70728da086f93793321e6a177e5
+Version/nonselfchecking=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|541d1abedad658071cef672ba9c06c91a4c2d2a79ddbbce4c7b134b618002c02352f70458fbda89974cdfcab071378a1
+
+[phase_tb]
+BinI32/nonselfchecking=3*7707
+I=0*22495
+I/nonselfchecking=I/nonSelfChecking 0*22736
+M=11|0|vde|1556694359620|./../src/PhaseAcc_TB.vhd|0*3041*0x445bafffbf3b5a7ae59e80876202730779d1338d|0*3278*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../src/PhaseAcc_TB.vhd|42
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|06b1d8ca10a07795b197518ac3e68311729e6221e4efaa6a8714f045f53f593360ea79288730455f30c56ce05e3a4c0a
+Version/nonselfchecking=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|541d1abedad658071cef672ba9c06c91a4c2d2a79ddbbce4c7b134b618002c027e073572531ba9c082d3243c335d1f00
+
+[sine_table]
+A/tablelookup=A/tableLookUp 21|./../src/SineTable.vhd|46|1*663141
+BinI32/tablelookup=3*262617
+I=0*23271
+I/tablelookup=I/tableLookUp 0*151201
+M=11|0|vde|1556694359646|./../src/SineTable.vhd|0*6019*0x384803a100b22b6a1121aeacf29d4498462d0d3e|0*6298*0x23b75c12e3e89f2ef000564498faa8c2
+M/tablelookup=M/tableLookUp 21|0|vde|1556703925486|./../src/SineTable.vhd|0*33645*0xbad72c95fdbd8666a157d37793f88c04cca16ee0|0*35529*0x20116f55b147878295aeff36dce7fc50
+NSymbols/sine_table=40|0|2*10258
+R=./../src/SineTable.vhd|39
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3885c67bd8c3efb8e4b0d0d4dd381fd43d87e4072875ef4966282c39e180cfc86cea26673e2f54a4604069a9af318a6a
+Version/tablelookup=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b6ce34a4cc17c06820103d6d28eb343be71639e7ac44e02582606706f7de996d920fcaffb1360ee5b175ca6596ba3660
+
+[sqwave]
+A/behavioral=+21|./../src/SquareWave.vhd|31|1*15115
+A/squarewavy=A/squareWavy 21|./../src/SquareWave.vhd|40|1*671711
+BinI32/squarewavy=3*264144
+I=0*80331
+I/squarewavy=I/squareWavy 0*152937
+M=11|0|vde|1556701497608|./../src/SquareWave.vhd|0*79907*0xafbdb0cdb782abb68a736b4b7551b9ae56c4632b|0*80248*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vde|1556695592580|./../src/SquareWave.vhd|0*14217*0xfb714e231f0e41ac138cdb1e8bdfcdf722929ef9|0*14772*0x20116f55b147878295aeff36dce7fc50
+M/squarewavy=M/squareWavy 21|0|vde|1556703925504|./../src/SquareWave.vhd|0*152269*0xbd7bb1f721d76f27b8f49421ac5d07bf8c95f0ba|0*152840*0x20116f55b147878295aeff36dce7fc50
+R=./../src/SquareWave.vhd|25
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b29ae3a4153f493837a4ed66822c3cba83faf29c20599ce6851c344896bda8a2
+Version/behavioral=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4a9bd67600db4c145539cb0dcd9917440
+Version/squarewavy=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|d80cb172db4d48609ab5b6735efce7126d75ad0b857e7cac0bcc8f421fc0a997ec792503f88f804e76d0cce92e842c46
+
+[~MFT]
+0=24|0DDS_with_Frequency_Selection.mgf|152937|128027
+1=18|1DDS_with_Frequency_Selection.mgf|671711|655217
+2=0|2DDS_with_Frequency_Selection.mgf|11555|0
+3=18|3DDS_with_Frequency_Selection.mgf|264144|255335
+
+[~U]
+adder_subtracter=11|0*14869||0x3
+dds_w_freq_select=11|0*15608|
+dds_w_freq_select_tb=11|0*16620|
+edge_det=11|0*25806||0x100000003
+edge_det_tb=edge_det_TB 11|0*18019|
+freq_reg_tb=freq_REG_TB 11|0*18606|
+frequency_reg=11|0*19355||0x3
+phase_accumulator=11|0*20030||0x3
+phase_accumulator_fsm=11|0*20814||0x3
+phase_accumulator_fsm_tb=phase_accumulator_fsm_TB 11|0*21565|
+phase_tb=phase_TB 11|0*22326|
+sine_table=11|0*23068||0x3
+sqwave=11|0*79666|

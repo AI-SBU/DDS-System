@@ -1,0 +1,9 @@
+i<>.\src\EdgeDetector.vhd
+i<>.\src\FrequencyRegister.vhd
+i<>.\src\PhaseAccumulator.vhd
+i<>.\src\PhaseAccumulatorFSM.vhd
+i<>.\src\Adder_Subtracter.vhd
+i<>.\src\SineTable.vhd
+i<>.\src\DDS_TOP.vhd
+i<>.\src\dds_w_freq_select_TB(2).vhd
+i<>.\src\SquareWave.vhd

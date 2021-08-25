@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<!----------------------------------------------------------------------------->
+<!--                          BEGIN HTML HEAD                                -->
+<!--                                                                         -->
+
+<HEAD>
+<TITLE>DRC Report File - dds_w_freq_select.bde</TITLE>
+<STYLE>
+.Err	{color:#FF0000;cursor:hand;text-decoration:underline;}
+.Warn	{color:#0000FF;cursor:hand;text-decoration:underline;}
+.Info	{color:#000000;cursor:hand;text-decoration:underline;}
+.Sccss  {color:#009600;cursor:hand;text-decoration:underline;}
+.ErrH	{color:#FF0000;cursor:hand;text-decoration:underline;}
+.WarnH	{color:#0000FF;cursor:hand;text-decoration:underline;}
+.InfoH	{color:#000000;cursor:hand;text-decoration:underline;}
+.Err1	{color:#FF0000;}
+.Warn1	{color:#0000FF;}
+.Info1	{color:#000000;}
+.Sccss1 {color:#009600;}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="white" TEXT="black" LINK="blue" VLINK="purple" BACKGROUND="C:\Aldec\Active-HDL-Student-Edition\\Flows\Res\default.bmp">
+<FONT FACE="Serif">
+<tt>
+<!--                                                                         -->
+<!--                             END HEADER                                  -->
+<!----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------->
+<!--                            BEGIN VBSCRIPT                               -->
+<!--                                                                         -->
+<SCRIPT LANGUAGE=JSCRIPT>
+	function RollOn() {
+		switch(window.event.srcElement.className) {
+			case 'Err':
+				window.event.srcElement.className = 'ErrH'; break;
+			case 'Warn':
+				window.event.srcElement.className = 'WarnH'; break;
+			case 'Info':
+				window.event.srcElement.className = 'InfoH'; break;
+		}
+	}
+	function RollOff() {
+		switch(window.event.srcElement.className) {
+			case 'ErrH':
+				window.event.srcElement.className = 'Err'; break;
+			case 'WarnH':
+				window.event.srcElement.className = 'Warn'; break;
+			case 'InfoH':
+				window.event.srcElement.className = 'Info'; break;
+		}
+	}
+	function OnError(sMsg,sUrl,sLine) {
+		return true;
+	}
+	
+	document.onmouseover = RollOn;
+	document.onmouseout = RollOff;
+	window.onerror = OnError;
+</SCRIPT>
+
+<SCRIPT LANGUAGE=VBSCRIPT>
+
+Function IID_IDispatch
+	IID_IDispatch = "{00020400-0000-0000-C000-000000000046}"
+End Function
+
+Function CLSID_Executor
+	CLSID_Executor = "Aldec.ExePlugIn.Generic.7"
+End Function
+
+
+Sub OpenPlugIn (progid, template, document, element, string)
+
+	Dim executor, command
+
+	Set executor = window.external.aldec.connector.OpenPlugIn(CLSID_Executor, IID_IDispatch)
+
+	command = "?Activate[<"+progid+">][<"+template+">][<"+document+">][<"+element+">][<"+string+">]"
+
+	executor.ExecuteCommand command, ""
+
+End Sub
+
+
+</SCRIPT>
+<!--                                                                         -->
+<!--                             END VBSCRIPT                                -->
+<!----------------------------------------------------------------------------->
+
+<H2>DRC Report File - dds_w_freq_select.bde</H2>
+
+Created on Wed 2019-05-01 at 04:46:23
+<HR NOSHADE COLOR="#008080">
+<SPAN class=Info1>Checking file 'C:\Users\Asif\OneDrive\SBU\Fifth Semester\ESE382\Labs\lab10\src\dds_w_freq_select.bde'.</SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Symbols without contents in library
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=11');>	Symbol 'adder_subtracter' from library 'dds_with_frequency_selection'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=8');>	Symbol 'edge_det' from library 'dds_with_frequency_selection'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=14');>	Symbol 'frequency_reg' from library 'dds_with_frequency_selection'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=10');>	Symbol 'phase_accumulator' from library 'dds_with_frequency_selection'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=9');>	Symbol 'phase_accumulator_fsm' from library 'dds_with_frequency_selection'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=12');>	Symbol 'sine_table' from library 'dds_with_frequency_selection'</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Err1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Duplicated instance and component names
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Err onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=11,11');>	'adder_subtracter'</a></li>
+	<li ;text-align:left><a class = Err onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=14,14');>	'frequency_reg'</a></li>
+	<li ;text-align:left><a class = Err onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=9,9');>	'phase_accumulator_FSM'</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Ambiguous range in net mapping
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=11,50');>	'adder_subtracter' instance: 'sine_value(6:0)' input bus pin and 'sine_val(m - 1:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=12,41');>	'sine_lookup_table' instance: 'addr(6:0)' input bus pin and 'addr(m - 1:0)' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=12,50');>	'sine_lookup_table' instance: 'sine_val(6:0)' output bus pin and 'sine_val(m - 1:0)' bus signal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Nets without source
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=19');>	'pos_sine' output wire terminal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Hanging nets
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=38');>	'up' wire signal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Unconnected terminals
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','C:\\Users\\Asif\\OneDrive\\SBU\\Fifth Semester\\ESE382\\Labs\\lab10\\src\\dds_w_freq_select.bde','','-errorid=19');>	'pos_sine' output wire terminal</a></li></ul></SPAN><BR>
+<SPAN class=Err1>dds_w_freq_select.bde - 3 error(s), 12 warning(s)</SPAN><BR>
+<SPAN class=Info1>DRC process completed in 1 second(s).</SPAN><BR>
+</tt>
+</FONT>
+</BODY>
+
+</HTML>

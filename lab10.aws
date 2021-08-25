@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+dds_with_frequency_selection=.\DDS_with_Frequency_Selection.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+dds_with_frequency_selection=1
